@@ -1,0 +1,12 @@
+D:\Projects\tests\Renamer\Renamer\bin\Debug\Renamer.exe.config
+D:\Projects\tests\Renamer\Renamer\bin\Debug\Renamer.exe
+D:\Projects\tests\Renamer\Renamer\bin\Debug\Renamer.pdb
+D:\Projects\tests\Renamer\Renamer\obj\Debug\Renamer.csprojResolveAssemblyReference.cache
+D:\Projects\tests\Renamer\Renamer\obj\Debug\Renamer.Properties.Resources.resources
+D:\Projects\tests\Renamer\Renamer\obj\Debug\Renamer.csproj.GenerateResource.Cache
+D:\Projects\tests\Renamer\Renamer\obj\Debug\Renamer.exe
+D:\Projects\tests\Renamer\Renamer\obj\Debug\Renamer.pdb
+D:\Projects\tests\Renamer\Renamer\bin\Debug\policy.2.0.taglib-sharp.dll
+D:\Projects\tests\Renamer\Renamer\bin\Debug\taglib-sharp.dll
+D:\Projects\tests\Renamer\Renamer\bin\Debug\policy.2.0.taglib-sharp.config
+D:\Projects\tests\Renamer\Renamer\obj\Debug\Renamer.MusicSorter.resources
