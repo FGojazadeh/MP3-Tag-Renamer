@@ -1,14 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-//using System.Data;
-//using System.Drawing;
 using System.Linq;
-using System.Text;
-//using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
-using System.Collections;
 using TagLib;
 
 namespace Renamer
@@ -28,7 +22,7 @@ namespace Renamer
             filesList.FullRowSelect = true;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void SelectFolderButton_Click(object sender, EventArgs e)
         {
             string dialogResult = folderBrowserDialog.ShowDialog().ToString();
             if (dialogResult == "OK")
@@ -64,8 +58,6 @@ namespace Renamer
                 string fileOriginName = filePath.Replace(folderBrowserDialog.SelectedPath + "\\", "");
                 string resultName = !string.IsNullOrEmpty(tag.FirstPerformer) && !string.IsNullOrEmpty(tag.Title) ? tag.FirstPerformer + " - " + tag.Title + ".mp3" : fileOriginName;
 
-                //byte[] Data = 
-                //songName = Encoding.UTF8.GetString(Data); 
 
                 resultName = resultName.Replace("<", "");
                 resultName = resultName.Replace(">", "");
@@ -104,6 +96,8 @@ namespace Renamer
                 }
             }
         }
+
+
 
     }
 }

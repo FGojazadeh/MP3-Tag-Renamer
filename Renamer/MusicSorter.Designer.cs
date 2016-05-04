@@ -47,7 +47,7 @@
             this.selectFolderButton.TabIndex = 0;
             this.selectFolderButton.Text = "Select Folder";
             this.selectFolderButton.UseVisualStyleBackColor = true;
-            this.selectFolderButton.Click += new System.EventHandler(this.button1_Click);
+            this.selectFolderButton.Click += new System.EventHandler(this.SelectFolderButton_Click);
             // 
             // ResultLabel
             // 
